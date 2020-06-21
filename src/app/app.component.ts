@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+      <div class="container">
+          <h1>Forms Again!</h1>
+          <app-wizard></app-wizard>
+      </div>
+  `,
 })
 export class AppComponent {
-  title = 'angular-il-forms';
+
 }
